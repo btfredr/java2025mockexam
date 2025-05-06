@@ -46,10 +46,37 @@ package Task6;
     Task 6.11: Test Class (5 points)
     Create a Test class with a main method to create one Book and one Electronics instance and
     call their print methods.
-    
+
     Note: Pay attention to access modifiers and OOP principles (inheritance, encapsulation,
     polymorphism).
  */
 public class Product {
-    
+    private int productID;
+    private String name;
+    private double price;
+
+    // Getters and setters
+    public int getID() {
+        return productID;
+    }
+
+    public void setID(int productID) {
+        this.productID = productID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
