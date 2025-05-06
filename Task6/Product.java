@@ -66,7 +66,12 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-    
+
+    public void print() {
+        System.out.println("Name: " + getName());
+        System.out.println("Price: " + getPrice());
+    }
+
     // Getters and setters
     public int getID() {
         return productID;
