@@ -23,4 +23,12 @@ public class Book extends Product {
         this.author = author;
         this.isHardcover = isHardcover;
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public boolean isHardcover() {
+        return isHardcover;
+    }
 }
