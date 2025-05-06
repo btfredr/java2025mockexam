@@ -25,8 +25,15 @@ public class Task2 {
 
         scanner.close();
 
-        for (int i = 1; i < height; i++) {
-            
+        for (int i = 1; i <= (height+1)/2; i++) {
+            for (int j = 1; j <= (height - (2*i-1)) / 2; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 1; k <=2*i-1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }
