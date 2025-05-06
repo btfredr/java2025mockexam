@@ -26,13 +26,18 @@ public class Task2 {
         scanner.close();
 
         for (int i = 1; i <= (height+1)/2; i++) {
+
+            // Giving the correct amount of spaces for each line, based on the user input. 
+            // Ensures that the stars are centered and not left-aligned.
             for (int j = 1; j <= (height - (2*i-1)) / 2; j++) {
                 System.out.print(" ");
             }
 
+            // Prints the stars
             for (int k = 1; k <=2*i-1; k++) {
                 System.out.print("*");
             }
+            // Add a line break
             System.out.println();
         }
     }
