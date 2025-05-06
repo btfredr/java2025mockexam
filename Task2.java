@@ -40,5 +40,20 @@ public class Task2 {
             // Add a line break
             System.out.println();
         }
+
+        for (int i = 1; i <= (height-1)/2; i--) {
+
+            // Reversing the logic to print bottom half.
+            for (int j = 1; j <= (height - (2*i-1)) / 2; j++) {
+                System.out.print(" ");
+            }
+
+            // Prints the stars
+            for (int k = 1; k <=2*i-1; k++) {
+                System.out.print("*");
+            }
+            // Add a line break
+            System.out.println();
+        }
     }
 }
