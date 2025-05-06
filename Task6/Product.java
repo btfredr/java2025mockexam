@@ -55,6 +55,18 @@ public class Product {
     private String name;
     private double price;
 
+    // Constructors
+    public Product (int productID, String name) {
+        this.productID = productID;
+        this.name = name;
+    }
+
+    public Product (int productID, String name, double price) {
+        this.productID = productID;
+        this.name = name;
+        this.price = price;
+    }
+    
     // Getters and setters
     public int getID() {
         return productID;
