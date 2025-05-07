@@ -8,5 +8,11 @@ package Task6;
     polymorphism).
  */
 public class Test {
-    
+    public static void main(String[] args) {
+        Book book = new Book(1, "Harry Potter", 19.99, "JK Rowling", true);
+        Electronics tv = new Electronics(2, "Samsung TV", 399.99, 5);
+
+        book.print();
+        tv.printAll();
+    }
 }
