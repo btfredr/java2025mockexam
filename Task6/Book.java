@@ -31,4 +31,14 @@ public class Book extends Product {
     public boolean isHardcover() {
         return isHardcover;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Product ID: " + getID());
+        System.out.println("Name: " + getName());
+        System.out.println("Price: " + getPrice());
+        System.out.println("Author: " + getAuthor());
+        System.out.println("Is hardcover: " + isHardcover());
+        
+    }
 }
