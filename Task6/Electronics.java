@@ -20,5 +20,19 @@ public class Electronics extends Product{
         this.warrantyYears = warrantyYears;
     }
 
+    // Getter
+    public int warrantyYears() {
+        return warrantyYears;
+    }
+
+    public void printNameAndPrice() {
+        System.out.println("Name: " + getName());
+        System.out.println("Price: " + getPrice());
+    }
+
+    public void printAll() {
+
+    }
+
     
 }
