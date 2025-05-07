@@ -21,7 +21,7 @@ public class Electronics extends Product{
     }
 
     // Getter
-    public int warrantyYears() {
+    public int getWarrantyYears() {
         return warrantyYears;
     }
 
@@ -31,7 +31,10 @@ public class Electronics extends Product{
     }
 
     public void printAll() {
-
+        System.out.println("Product ID: " + getID());
+        System.out.println("Name: " + getName());
+        System.out.println("Price: " + getPrice());
+        System.out.println("Warranty Years: " + getWarrantyYears());
     }
 
     
